@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const WINE     = "#6B1A2A";
 const IVORY    = "#F5EFE0";
@@ -476,6 +477,7 @@ export default function MediaKit() {
         </div>
         <PlatformLinks />
       </div>
+      <Analytics />
     </div>
   );
 }
