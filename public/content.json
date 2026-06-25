@@ -2,9 +2,9 @@
   "_instructions": "Edit this file on GitHub to update the written content of your media kit. Change text between the quote marks. Don't delete commas, brackets, or quote marks themselves. Save = auto-redeploy in ~60 seconds.",
 
   "bio": {
-    "pullQuote": "A romance author and creator who lives inside fandom — and who knows exactly where the bodies are buried in publishing.",
-    "paragraph1": "Rachel D. Oak occupies a genuinely rare dual position: she's a reader with native fandom fluency (her audience reads AO3, demanded Heated Rivalry outside Canada, and will defend her on Reddit) and an author who has seen publishing from the inside — and isn't afraid to say so on camera.",
-    "paragraph2": "Short-form: relatable all-caps reader moments. Long-form: industry critique and video essays with cheeky humour and 2am-texting-your-friends energy underneath. Active on every platform, every day."
+    "pullQuote": "A working novelist and content creator who notices everything about how romance is read, written, adapted, and sold.",
+    "paragraph1": "She's four books into an eleven-book romance universe, with seven more in active development — and the same audience that reads and comments daily is the one organically demanding the next instalment. That's not a creator monetising an audience. That's a working author with a reader base proven to buy.",
+    "paragraph2": "Her audience is fandom-native — they read AO3, demanded Heated Rivalry outside Canada, and show up in the comments to defend her. They don't just watch. They convert."
   },
 
   "whyPartner": [
@@ -18,25 +18,40 @@
     },
     {
       "heading": "Trusted, honest voice",
-      "body": "She calls out bad tropes and publishing practices by name. That honesty is exactly why her audience trusts what she recommends."
+      "body": "She has standards and says so — about tropes, about adaptations, about anything in the genre. That honesty is exactly why her audience trusts what she recommends."
     },
     {
       "heading": "Multi-format, daily output",
       "body": "Daily Shorts, daily Reels, weekly essays, weekly lives, weekly newsletters. One deal, 5+ organic touchpoints."
+    },
+    {
+      "heading": "A working author, not just a commentator",
+      "body": "Four books published, seven more in active development across an eleven-book universe. The content isn't built on top of someone else's genre — it's built by someone actively writing inside it."
+    }
+  ],
+
+  "contentRegisters": [
+    {
+      "title": "Warm & relatable",
+      "body": "Cosy reader moments, emotional Shorts.",
+      "bestFit": "Best fit: lifestyle, wellness, bookish, emotional brands."
+    },
+    {
+      "title": "Sharp & critical",
+      "body": "Industry critique, trope takedowns.",
+      "bestFit": "Best fit: tools, platforms, indie-aligned brands."
     }
   ],
 
   "topics": [
-    "Romance novels",
-    "Publishing industry critique",
+    "Romance & dark romance",
+    "Book humor / relatable reader content",
     "Trope analysis",
-    "Fandom culture",
-    "Author life",
-    "Reader identity",
-    "Book releases",
-    "AO3 + fanfic culture",
-    "Writing process",
-    "Industry exposé"
+    "Fandom & AO3/fanfic culture",
+    "Adaptation & casting commentary",
+    "Publishing industry critique",
+    "Author life & writing process",
+    "Book releases"
   ],
 
   "proofPoints": [
@@ -59,6 +74,11 @@
       "num": "768K",
       "label": "Single Short peak views",
       "body": "Algorithmic reach and content quality, not just subscriber count."
+    },
+    {
+      "num": "4/11",
+      "label": "Eleven-book universe in development",
+      "body": "Four books published, seven more in active development — a sustained creative project, not a single viral hit."
     }
   ],
 
@@ -73,11 +93,34 @@
   ],
 
   "brandNotFit": [
-    "Brands misaligned with feminist values",
-    "Content that erodes reader trust",
-    "Conflicts with publishing critique stance",
+    "Brands misaligned with feminist values or reader trust",
     "Ethically compromised supply chains"
   ],
+
+  "partnershipTypes": [
+    {
+      "t": "Sponsored integration",
+      "d": "Brand woven into content naturally — a story beat, not an ad break. Available across any platform or format."
+    },
+    {
+      "t": "Affiliate partnership",
+      "d": "Performance-based. Rachel promotes, audience converts. Trackable, low-risk entry point."
+    },
+    {
+      "t": "Co-created content",
+      "d": "Brand briefs, Rachel creates. Editorial control stays with Rachel — that's what makes it authentic."
+    },
+    {
+      "t": "Substack sponsorship",
+      "d": "Newsletter feature slot. 27.75% open rate — above-industry-average readership."
+    },
+    {
+      "t": "Book / author features",
+      "d": "Highest-alignment category. Publishers, authors, book-adjacent brands."
+    }
+  ],
+
+  "partnershipClosingLine": "Also open to speaking engagements, panel appearances, and digital product collaborations (reading journals, curated lists, branded merch) for the right fit.",
 
   "ctaText": "All enquiries welcome. If you think you're a fit — or even if you're not sure — email me and we'll figure it out."
 }
