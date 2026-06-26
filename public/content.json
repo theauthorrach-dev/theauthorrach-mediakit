@@ -2,27 +2,27 @@
   "_instructions": "Edit this file on GitHub to update the written content of your media kit. Change text between the quote marks. Don't delete commas, brackets, or quote marks themselves. Save = auto-redeploy in ~60 seconds.",
 
   "bio": {
-    "pullQuote": "A working novelist and content creator who notices everything about how romance is read, written, adapted, and sold.",
-    "paragraph1": "She's four books into an eleven-book romance universe, with seven more in active development — and the same audience that reads and comments daily is the one organically demanding the next instalment. That's not a creator monetising an audience. That's a working author with a reader base proven to buy.",
-    "paragraph2": "Her audience is fandom-native — they read AO3, demanded Heated Rivalry outside Canada, and show up in the comments to defend her. They don't just watch. They convert."
+    "pullQuote": "An author and content creator who notices everything about how romance is read, written, adapted, and sold.",
+    "paragraph1": "She's four books into an eleven-book romance universe, with seven more in active development, and the same audience that reads and comments daily is the one organically demanding the next instalment. That's not a creator monetising an audience. That's a working author with a reader base proven to buy.",
+    "paragraph2": "Her audience is fandom-native, they read AO3, demanded Heated Rivalry outside Canada, and show up in the comments to defend the hot takes. They watch and convert."
   },
 
   "whyPartner": [
     {
       "heading": "Fandom-native audience",
-      "body": "Her followers don't just watch — they defend, share, demand, and buy. This is the core romance fandom, not casual scrollers."
+      "body": "Her followers defend, share, demand, and buy. This is the core romance fandom, not casual scrollers."
     },
     {
       "heading": "Algorithmic overperformer",
-      "body": "TikTok: 397.9K views in 28 days from 14K followers. YouTube Shorts peaking at 768K. Reach dramatically outpaces follower count."
+      "body": "Instagram: 1.9M views in 30 days from 51.5K followers. YouTube: 479.5K monthly audience. Reach dramatically outpaces follower count."
     },
     {
       "heading": "Trusted, honest voice",
-      "body": "She has standards and says so — about tropes, about adaptations, about anything in the genre. That honesty is exactly why her audience trusts what she recommends."
+      "body": "She has standards and says so, about tropes, adaptations, literacy, anything in the romance genre. That honesty is exactly why her audience trusts what she recommends."
     },
     {
       "heading": "Multi-format, daily output",
-      "body": "Daily Shorts, daily Reels, weekly essays, weekly lives, weekly newsletters. One deal, 5+ organic touchpoints."
+      "body": "Daily Shorts, Reels, and TikToks, plus weekly essays and weekly long-forms. One deal, 5+ organic touchpoints."
     },
     {
       "heading": "A working author, not just a commentator",
@@ -58,11 +58,11 @@
     {
       "num": "#26",
       "label": "Substack Fiction · global",
-      "body": "Ranked top 30 within 2 months of launch. Zero paid acquisition — driven entirely by social."
+      "body": "Ranked top 30 within 2 months of launch. Zero paid acquisition, driven entirely by organic social."
     },
     {
       "num": "✦",
-      "label": "The Reddit Defence",
+      "label": "Reddit Defence",
       "body": "When someone tried to cancel her for 'TikTok cringe', Reddit came to her defence. Community loyalty, publicly demonstrated."
     },
     {
@@ -71,14 +71,14 @@
       "body": "Organic fan demand for the final Lavender Bay book — genuine emotional investment in her fiction."
     },
     {
-      "num": "768K",
-      "label": "Single Short peak views",
-      "body": "Algorithmic reach and content quality, not just subscriber count."
+      "num": "937K",
+      "label": "Instagram accounts reached in 30 days",
+      "body": "Algorithmic reach and content quality, beyond subscriber count."
     },
     {
       "num": "4/11",
       "label": "Eleven-book universe in development",
-      "body": "Four books published, seven more in active development — a sustained creative project, not a single viral hit."
+      "body": "Four books published, seven more in active development. A sustained creative project."
     }
   ],
 
@@ -94,13 +94,13 @@
 
   "brandNotFit": [
     "Brands misaligned with feminist values or reader trust",
-    "Ethically compromised supply chains"
+    "Gambling, AI, ethically compromised supply chains"
   ],
 
   "partnershipTypes": [
     {
       "t": "Sponsored integration",
-      "d": "Brand woven into content naturally — a story beat, not an ad break. Available across any platform or format."
+      "d": "Brand woven into content naturally: a story beat, not an ad break. Available across any platform or format."
     },
     {
       "t": "Affiliate partnership",
@@ -108,11 +108,11 @@
     },
     {
       "t": "Co-created content",
-      "d": "Brand briefs, Rachel creates. Editorial control stays with Rachel — that's what makes it authentic."
+      "d": "Brand briefs, Rachel creates. Editorial control stays with Rachel, that's what makes it authentic."
     },
     {
       "t": "Substack sponsorship",
-      "d": "Newsletter feature slot. 27.75% open rate — above-industry-average readership."
+      "d": "Newsletter feature slot. 25.94% open rate - above-industry-average readership."
     },
     {
       "t": "Book / author features",
@@ -122,5 +122,5 @@
 
   "partnershipClosingLine": "Also open to speaking engagements, panel appearances, and digital product collaborations (reading journals, curated lists, branded merch) for the right fit.",
 
-  "ctaText": "All enquiries welcome. If you think you're a fit — or even if you're not sure — email me and we'll figure it out."
+  "ctaText": "All enquiries welcome. If you think you're a fit — or  if you're not sure — email me, and let's figure it out."
 }
