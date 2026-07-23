@@ -13,7 +13,7 @@ const PLATFORMS = [
   { name: "Substack",  url: "https://racheldoak.substack.com/" },
 ];
 
-const TABS = ["Overview", "Stats", "Collaboration Ideas", "Partnerships"];
+const TABS = ["Overview", "Stats", "Partnerships"];
 const fmt  = n => Number(n).toLocaleString();
 
 // Fallback content shown instantly while content.json loads
@@ -24,19 +24,19 @@ const DEFAULT_CONTENT = {
     paragraph2: "Her audience is fandom-native — they read AO3, demanded Heated Rivalry outside Canada, and show up in the comments to defend her. They don't just watch. They convert.",
   },
   whyPartner: [
-    { heading: "Fandom-native audience",     body: "Her followers don't just watch — they defend, share, demand, and buy. This is the core romance fandom, not casual scrollers." },
+    { heading: "Fandom-native audience",     body: "Her followers don't just watch, they defend, share, demand, and buy. This is the core romance fandom, not casual scrollers." },
     { heading: "Algorithmic overperformer",  body: "TikTok: 397.9K views in 28 days from 14K followers. YouTube Shorts peaking at 768K. Reach dramatically outpaces follower count." },
-    { heading: "Trusted, honest voice",      body: "She has standards and says so — about tropes, about adaptations, about anything in the genre. That honesty is exactly why her audience trusts what she recommends." },
+    { heading: "Trusted, honest voice",      body: "She has standards and says so: about tropes, about adaptations, about anything in the genre. That honesty is exactly why her audience trusts what she recommends." },
     { heading: "Multi-format, daily output", body: "Daily Shorts, daily Reels, weekly essays, weekly lives, weekly newsletters. One deal, 5+ organic touchpoints." },
     { heading: "A working author, not just a commentator", body: "Four books published, seven more in active development across an eleven-book universe. The content isn't built on top of someone else's genre — it's built by someone actively writing inside it." },
   ],
   topics: ["Romance & dark romance","Book humor / relatable reader content","Trope analysis","Fandom & AO3/fanfic culture","Adaptation & casting commentary","Publishing industry critique","Author life & writing process","Book releases"],
   proofPoints: [
-    { num: "#26",    label: "Substack Fiction · global",      body: "Ranked top 30 within 2 months of launch. Zero paid acquisition — driven entirely by social." },
+    { num: "#26",    label: "Substack Fiction · global",      body: "Ranked top 30 within 2 months of launch. Zero paid acquisition, driven entirely by social." },
     { num: "✦",     label: "The Reddit Defence",              body: "When someone tried to cancel her for 'TikTok cringe', Reddit came to her defence. Community loyalty, publicly demonstrated." },
-    { num: "3-part", label: "Readers demanding her trilogy",  body: "Organic fan demand for the final Lavender Bay book — genuine emotional investment in her fiction." },
+    { num: "3-part", label: "Readers demanding her trilogy",  body: "Organic fan demand for the final Lavender Bay book, genuine emotional investment in her fiction." },
     { num: "768K",   label: "Single Short peak views",        body: "Algorithmic reach and content quality, not just subscriber count." },
-    { num: "4/11",   label: "Eleven-book universe in development", body: "Four books published, seven more in active development — a sustained creative project, not a single viral hit." },
+    { num: "4/11",   label: "Eleven-book universe in development", body: "Four books published, seven more in active development, this is a sustained creative project." },
   ],
   contentRegisters: [
     { title: "Warm & relatable", body: "Cosy reader moments, emotional Shorts.", bestFit: "Best fit: lifestyle, wellness, bookish, emotional brands." },
@@ -47,7 +47,7 @@ const DEFAULT_CONTENT = {
   partnershipTypes: [
     { t: "Sponsored integration",  d: "Brand woven into content naturally — a story beat, not an ad break. Available across any platform or format." },
     { t: "Affiliate partnership",  d: "Performance-based. Rachel promotes, audience converts. Trackable, low-risk entry point." },
-    { t: "Co-created content",     d: "Brand briefs, Rachel creates. Editorial control stays with Rachel — that's what makes it authentic." },
+    { t: "Co-created content",     d: "Brand briefs, Rachel creates. Editorial control stays with Rachel, that's what makes it authentic." },
     { t: "Substack sponsorship",   d: "Newsletter feature slot. 27.75% open rate — above-industry-average readership." },
     { t: "Book / author features", d: "Highest-alignment category. Publishers, authors, book-adjacent brands." },
   ],
@@ -345,34 +345,6 @@ export default function MediaKit() {
               { val:"IN · UK",           label:"Next top markets" },
             ]} />
             <p style={{ fontSize:"0.65rem", color:"#aaa", marginTop:"0.55rem" }}>Industry avg open rate 20–25% · Rachel: 27.75% ✦</p>
-          </div>
-        </div>
-      )}
-
-      {/* ═══ COLLABORATION IDEAS ════════════════════════════════════ */}
-      {tab === "Collaboration Ideas" && (
-        <div style={{ padding:"2.5rem" }}>
-          <h2 style={ST}>What a partnership looks like</h2>
-          <p style={{ fontSize:"0.76rem", color:"#999", fontStyle:"italic", margin:"-0.15rem 0 1rem" }}>Illustrative concepts — final content always tailored to the brief.</p>
-          <div style={GR} />
-          <div style={{ display:"grid", gap:"0.7rem" }}>
-            {[
-              { fmt:"YouTube Essay",    tags:["Long-form","Sharp & critical"], idea:'Publishing critique with brand as the reader-first alternative — narrative integration, not an ad read.' },
-              { fmt:"YouTube Short",    tags:["Shorts","Warm & relatable"],    idea:'"the moment in [product] that made me stop and cry" — brand appears inside a genuine emotional reader beat.' },
-              { fmt:"TikTok / Reels",  tags:["Short-form","Discovery"],      idea:'"types of romance readers as [brand categories]" — relatable taxonomy with brand as the natural punchline.' },
-              { fmt:"Substack feature",tags:["Newsletter","Long-form"],      idea:"Personal essay on reading as a political act — sponsor earns its place by fitting the argument, not interrupting it." },
-              { fmt:"Live stream",     tags:["Lives","Community"],           idea:"Sponsored read-along with live commentary and brand gifting for active participants." },
-            ].map(item => (
-              <div key={item.fmt} style={{ background:"#fff", borderRadius:"10px", padding:"1rem 1.25rem", border:`0.5px solid ${ROSE}22`, display:"flex", gap:"1rem", alignItems:"flex-start", flexWrap:"wrap" }}>
-                <div style={{ minWidth:"115px", flexShrink:0 }}>
-                  <div style={{ fontWeight:600, color:WINE, fontSize:"0.8rem" }}>{item.fmt}</div>
-                  <div style={{ display:"flex", gap:"0.3rem", flexWrap:"wrap", marginTop:"0.3rem" }}>
-                    {item.tags.map(t => <span key={t} style={{ background:`${ROSE}18`, color:ROSE, fontSize:"0.57rem", padding:"0.1rem 0.42rem", borderRadius:"10px" }}>{t}</span>)}
-                  </div>
-                </div>
-                <div style={{ fontSize:"0.79rem", color:"#555", lineHeight:1.78, flex:1 }}>{item.idea}</div>
-              </div>
-            ))}
           </div>
         </div>
       )}
