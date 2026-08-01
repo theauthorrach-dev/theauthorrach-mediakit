@@ -367,16 +367,16 @@ export default function MediaKit() {
           <h2 style={ST}>Base rate guidance</h2>
           <div style={GR} />
           <p style={{ fontSize:"0.77rem", color:"#777", lineHeight:1.85, marginBottom:"1.35rem", maxWidth:"600px", fontStyle:"italic" }}>
-            Rates reflect engagement performance, not vanity counts. Rachel's YouTube view-to-subscriber ratio (~100:1) and TikTok engagement (~5.4% vs 2–4% average) significantly outperform niche benchmarks. All figures are starting points — final pricing depends on deliverables, exclusivity, and campaign length.
+            Rates reflect engagement performance. Rachel's YouTube view-to-subscriber ratio (~100:1) and TikTok engagement (~5.4% vs 2–4% average) significantly outperform niche benchmarks. All figures are starting points, final pricing depends on deliverables, exclusivity, and campaign length.
           </p>
           <div style={{ display:"grid", gap:"0.6rem", marginBottom:"2.5rem" }}>
             {[
               { item:"YouTube · Long-form integration (60s+ segment)", rate:"$800–$1,500",   note:"Deep narrative brand integration" },
-              { item:"YouTube · Dedicated Short",                       rate:"$300–$600",     note:"3.1M monthly views channel" },
-              { item:"Instagram · Dedicated Reel",                      rate:"$500–$1,000",   note:"50.6K followers · daily cadence" },
+              { item:"YouTube · Dedicated Short",                       rate:"$300–$600",     note:"Typical range: 22k-89k views in 7 days" },
+              { item:"Instagram · Dedicated Reel",                      rate:"$500–$1,000",   note:"Typical range: 5.3k-38.2k views" },
               { item:"TikTok · Dedicated video",                        rate:"$200–$400",     note:"~5.4% engagement rate" },
               { item:"Substack · Newsletter feature",                   rate:"$150–$300",     note:"27.75% open rate" },
-              { item:"Multi-platform package (3+ touchpoints)",         rate:"$2,000–$4,500", note:"Custom scope — request a proposal" },
+              { item:"Multi-platform package (3+ touchpoints)",         rate:"$2,000–$4,500", note:"Custom scope, request a proposal" },
               { item:"Book / publishing brand premium",                  rate:"+25% on base",  note:"Highest content-brand alignment" },
             ].map(r => (
               <div key={r.item} style={{ background:"#fff", borderRadius:"10px", padding:"1rem 1.25rem", border:`0.5px solid ${GOLD}35`, display:"flex", justifyContent:"space-between", alignItems:"center", gap:"1rem", flexWrap:"wrap" }}>
