@@ -45,10 +45,10 @@ const DEFAULT_CONTENT = {
   brandFit:    ["Book publishers + indie presses","Reading apps + e-readers","Stationery + journaling brands","Book subscription boxes","Coffee + cosy lifestyle brands","Writing tools + productivity apps","Literary merch + bookish goods"],
   brandNotFit: ["Brands misaligned with feminist values or reader trust","Ethically compromised supply chains"],
   partnershipTypes: [
-    { t: "Sponsored integration",  d: "Brand woven into content naturally — a story beat, not an ad break. Available across any platform or format." },
+    { t: "Sponsored integration",  d: "Brand woven into content naturally: a story beat, not an ad break. Available across any platform or format." },
     { t: "Affiliate partnership",  d: "Performance-based. Rachel promotes, audience converts. Trackable, low-risk entry point." },
     { t: "Co-created content",     d: "Brand briefs, Rachel creates. Editorial control stays with Rachel, that's what makes it authentic." },
-    { t: "Substack sponsorship",   d: "Newsletter feature slot. 27.75% open rate — above-industry-average readership." },
+    { t: "Substack sponsorship",   d: "Newsletter feature slot. 27.75% open rate, above-industry-average readership." },
     { t: "Book / author features", d: "Highest-alignment category. Publishers, authors, book-adjacent brands." },
   ],
   partnershipClosingLine: "Also open to speaking engagements, panel appearances, and digital product collaborations (reading journals, curated lists, branded merch) for the right fit.",
