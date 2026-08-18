@@ -119,7 +119,7 @@ export default function MediaKit() {
   const [ig, setIg] = useState({ followers:51874, posts:840, accountsReached:"1.1M", profileViews:"4,218" });
   const [tt, setTt] = useState({ followers:"14K", totalLikes:"1.2M", videoViews:"397.9K", profileViews:"20.1K", likes28:"21.6K", comments:"286", shares:"2.4K", engRate:"~5.4%" });
   const [ss, setSs] = useState({ subscribers:"577", rank:"#26", openRate:"27.75%", views30d:"2,528", usAudience:"36%" });
-  const [lastUpdated, setLastUpdated] = useState("May 2026");
+  const [lastUpdated, setLastUpdated] = useState("July 2026");
 
   useEffect(() => {
     // 1. Load stats.json (numbers)
