@@ -286,7 +286,7 @@ export default function MediaKit() {
           <div style={{ background:WINE, borderRadius:"14px", padding:"1.5rem", marginBottom:"2rem" }}>
             <div style={{ color:GOLD, fontSize:"0.58rem", letterSpacing:"0.2em", textTransform:"uppercase", marginBottom:"1rem", opacity:0.75 }}>Combined reach</div>
             <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(120px,1fr))", gap:"1rem", textAlign:"center" }}>
-              {[["96.9K+","Total followers"],["3.5M+","Monthly video views"],["5","Active platforms"],["~5.4%","TikTok eng. rate (avg 2–4%)"]].map(([v,l]) => (
+              {[["101K+","Total followers"],["3.5M+","Monthly video views"],["5","Active platforms"],["~5.4%","TikTok eng. rate (avg 2–4%)"]].map(([v,l]) => (
                 <div key={l}>
                   <div style={{ fontFamily:"Impact,'Arial Black',sans-serif", fontSize:"1.9rem", color:GOLD, lineHeight:1 }}>{v}</div>
                   <div style={{ fontSize:"0.56rem", color:IVORY, opacity:0.45, textTransform:"uppercase", letterSpacing:"0.09em", marginTop:"0.3rem" }}>{l}</div>
