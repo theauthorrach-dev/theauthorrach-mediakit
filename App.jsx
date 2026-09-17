@@ -115,10 +115,10 @@ export default function MediaKit() {
   const [loaded, setLoaded] = useState(false);
   const [content, setContent] = useState(DEFAULT_CONTENT);
 
-  const [yt, setYt] = useState({ subscribers:31688, monthlyViews:"3.1M", monthlyAudience:"613.7K", topShort:"768K", shortsRange:"19.7K–52.9K", videoRange:"290–1.2K", liveRange:"80–150", live:false });
-  const [ig, setIg] = useState({ followers:51874, posts:840, accountsReached:"1.1M", profileViews:"4,218" });
-  const [tt, setTt] = useState({ followers:"14K", totalLikes:"1.2M", videoViews:"397.9K", profileViews:"20.1K", likes28:"21.6K", comments:"286", shares:"2.4K", engRate:"~5.4%" });
-  const [ss, setSs] = useState({ subscribers:"577", rank:"#26", openRate:"27.75%", views30d:"2,528", usAudience:"36%" });
+  const [yt, setYt] = useState({ subscribers:34995, monthlyViews:"2M", monthlyAudience:"487K", topShort:"341.4K", shortsRange:"19.8K–36.5K", videoRange:"920–3.1K", liveRange:"80–180", live:false });
+  const [ig, setIg] = useState({ followers:52130, posts:977, accountsReached:"1.6M", profileViews:"3,258" });
+  const [tt, setTt] = useState({ followers:"14K", totalLikes:"1.4M", videoViews:"112.1K", profileViews:"439", likes28:"13.9K", comments:"256", shares:"818", engRate:"~5.4%" });
+  const [ss, setSs] = useState({ subscribers:"593", rank:"#26", openRate:"26.81%", views30d:"2,287", usAudience:"35%" });
   const [lastUpdated, setLastUpdated] = useState("July 2026");
 
   useEffect(() => {
