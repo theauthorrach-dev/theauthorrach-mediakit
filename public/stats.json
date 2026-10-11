@@ -1,39 +1,39 @@
 {
-  "lastUpdated": "August 2026",
+  "lastUpdated": "October 2026",
 
   "youtube": {
-    "subscribers": 33745,
-    "monthlyViews": "2.2M",
-    "monthlyAudience": "576.4K",
-    "topShort": "720.1K",
-    "shortsRange": "18.1K–31.7K",
+    "subscribers": 35508,
+    "monthlyViews": "1.7M",
+    "monthlyAudience": "384.2K",
+    "topShort": "146.3K",
+    "shortsRange": "15.4K–32.3K",
     "videoRange": "1.0K–2.3K",
-    "liveRange": "80–150"
+    "liveRange": "80–180"
   },
 
   "instagram": {
-    "followers": 51913,
-    "posts": 933
-    "accountsReached": "1.1M",
-    "profileViews": "4,111"
+    "followers": 51906,
+    "posts": 1002
+    "accountsReached": "731502",
+    "profileViews": "1823"
   },
 
   "tiktok": {
-    "followers": "13.9K",
+    "followers": "14K",
     "totalLikes": "1.4M",
-    "videoViews": "207.2K",
-    "profileViews": "775",
-    "likes28": "28.8K",
-    "comments": "408",
-    "shares": "2.6K",
+    "videoViews": "87.7K",
+    "profileViews": "291",
+    "likes28": "10.5K",
+    "comments": "158",
+    "shares": "631",
     "engRate": "~5.4%"
   },
 
   "substack": {
-    "subscribers": "584",
+    "subscribers": "601",
     "rank": "#26",
-    "openRate": "27.4%",
-    "views30d": "1,988",
+    "openRate": "25.83%",
+    "views30d": "2,606",
     "usAudience":. "35%"
   }
 }
